@@ -7,9 +7,9 @@ calcule e mostre o comprimento da hipotenusa.
 
 from math import sqrt
 
-CO = int(input("Por favor, insira o valor do cateto oposto: "))
-CA = int(input("Por favor, digite o valor do cateto adjacente: "))
+CO = float(input("Por favor, insira o valor do cateto oposto: "))
+CA = float(input("Por favor, digite o valor do cateto adjacente: "))
 
-hipotenusa = sqrt((CO ** 2) + (CA ** 2))
+hipotenusa = sqrt((CO ** 2) + (CA ** 2)) #sqrt método para calcular a raiz quadrada
 
-print("O valor da hipotenusa é de: {}".format(hipotenusa))
+print("O valor da hipotenusa é de: {:.2f}".format(hipotenusa))
