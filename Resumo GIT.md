@@ -13,3 +13,6 @@ Realiza um commit, salvando as alterações com uma mensagem descritiva entre as
 git push origin main
 Envia as alterações do branch local (neste caso, main) para o repositório remoto.
 
+git pull
+Baixa todos os arquivos do repositório remoto
+
